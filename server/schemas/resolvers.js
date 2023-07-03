@@ -1,5 +1,4 @@
 const { User } = require('../models');
-const { Query } = require('mongoose');
 const { signToken } = require('../utils/auth');
 const { AuthenticationError } = require('apollo-server-express');
 
